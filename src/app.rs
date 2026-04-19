@@ -77,6 +77,7 @@ pub struct App {
     pub tx: Sender<BackgroundMessage>,
     pub rx: Receiver<BackgroundMessage>,
     pub show_help: bool,
+    pub help_scroll: u16,
 }
 
 impl App {
@@ -112,6 +113,7 @@ impl App {
             tx,
             rx,
             show_help: false,
+            help_scroll: 0,
         }
     }
 

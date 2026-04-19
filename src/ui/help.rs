@@ -14,7 +14,7 @@ pub fn render(f: &mut Frame, app: &App) {
     }
 
     let theme = get_theme(app.theme);
-    let area = centered_rect(80, 80, f.area());
+    let area = centered_rect(60, 60, f.area());
 
     let help_text = vec![
         Line::from("Keyboard Shortcuts:"),
@@ -65,6 +65,7 @@ pub fn render(f: &mut Frame, app: &App) {
 
     let p = Paragraph::new(help_text)
         .block(block)
+        .scroll((app.help_scroll, 0))
         .wrap(Wrap { trim: true });
 
     f.render_widget(Clear, area);
