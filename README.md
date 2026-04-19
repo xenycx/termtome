@@ -65,7 +65,7 @@ To build and run TermTome, you will need:
 Run the application directly using Cargo:
 
 ```bash
-cargo run --release
+cargo run
 ```
 
 Or, if installed globally, simply type the executable name in your terminal. You can pass the path to an EPUB file directly:
