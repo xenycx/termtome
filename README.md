@@ -8,6 +8,8 @@ TermTome brings the joy of reading directly to your terminal. Whether you're a d
 ![Rust](https://img.shields.io/badge/rust-1.70%2B-orange.svg)
 ![Status](https://img.shields.io/badge/status-active-success.svg)
 
+![Starter Guide](screenshots/starter_guide.jpg)
+
 ## ✨ Features
 
 TermTome is packed with everything you need for a comfortable reading experience in the terminal:

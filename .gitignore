@@ -7,5 +7,6 @@
 *.json
 /states/
 /config.json
+.sisyphus/drafts
 
 
