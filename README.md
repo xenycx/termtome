@@ -1,8 +1,8 @@
-# BookRat 🐀📚
+# TermTome ✨📚
 
 A fast, feature-rich, and highly customizable Terminal User Interface (TUI) E-book reader built with Rust. 
 
-BookRat brings the joy of reading directly to your terminal. Whether you're a developer who never wants to leave their command line or someone who appreciates minimalistic, distraction-free environments, BookRat provides a robust reading experience with advanced features like in-book searching, progress tracking, and custom themes.
+TermTome brings the joy of reading directly to your terminal. Whether you're a developer who never wants to leave their command line or someone who appreciates minimalistic, distraction-free environments, TermTome provides a robust reading experience with advanced features like in-book searching, progress tracking, and custom themes.
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Rust](https://img.shields.io/badge/rust-1.70%2B-orange.svg)
@@ -10,7 +10,7 @@ BookRat brings the joy of reading directly to your terminal. Whether you're a de
 
 ## ✨ Features
 
-BookRat is packed with everything you need for a comfortable reading experience in the terminal:
+TermTome is packed with everything you need for a comfortable reading experience in the terminal:
 
 ### 📖 Reading Experience
 - **Broad Format Support**: Seamlessly parse and read EPUB files.
@@ -37,7 +37,7 @@ BookRat is packed with everything you need for a comfortable reading experience 
 
 ### Prerequisites
 
-To build and run BookRat, you will need:
+To build and run TermTome, you will need:
 - [Rust](https://www.rust-lang.org/tools/install) (1.70 or newer recommended)
 - Cargo (comes with Rust)
 
@@ -58,7 +58,7 @@ To build and run BookRat, you will need:
    ```bash
    cargo install --path .
    ```
-   *This allows you to run `terminal-book-reader` (or `bookrat` depending on your alias) from anywhere on your system.*
+   *This allows you to run `terminal-book-reader` (or `termtome` depending on your alias) from anywhere on your system.*
 
 ### Quick Start
 
@@ -76,7 +76,7 @@ terminal-book-reader path/to/your/book.epub
 
 ## 🎮 Keybindings & Controls
 
-BookRat is designed to be fully navigable via keyboard. (Press `?` inside the app to view the help menu anytime).
+TermTome is designed to be fully navigable via keyboard. (Press `?` inside the app to view the help menu anytime).
 
 | Key | Action |
 | :--- | :--- |
@@ -93,7 +93,7 @@ BookRat is designed to be fully navigable via keyboard. (Press `?` inside the ap
 
 ## 🛠️ Configuration & Data
 
-By default, BookRat stores your imported books, reading progress, and configuration files in your system's standard user data directory. 
+By default, TermTome stores your imported books, reading progress, and configuration files in your system's standard user data directory. 
 
 - **Linux:** `~/.local/share/terminal-book-reader/`
 - **macOS:** `~/Library/Application Support/terminal-book-reader/`

@@ -1,4 +1,4 @@
-# BookRat TODO List
+# TermTome TODO List
 
 ## Search Functionality
 - [ ] Search within current chapter
