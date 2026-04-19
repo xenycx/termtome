@@ -26,7 +26,7 @@ pub fn render(f: &mut Frame, app: &App) {
         Line::from("  /          - Search in book"),
         Line::from("  t          - Toggle Light/Dark Theme"),
         Line::from("  P          - Open Preferences Menu"),
-        Line::from("  Ctrl+H     - Toggle this Help Menu"),
+        Line::from("  Ctrl+H / ? - Toggle this Help Menu"),
         Line::from("  +/-        - Increase/Decrease margin width"),
         Line::from(""),
         Line::from("Navigation (Library/Downloader):"),

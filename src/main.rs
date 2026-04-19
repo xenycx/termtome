@@ -216,7 +216,9 @@ fn run_app(terminal: &mut Terminal<CrosstermBackend<io::Stdout>>, app: &mut App)
         if event::poll(std::time::Duration::from_millis(50))? {
             should_draw = true;
             if let Event::Key(key) = event::read()? {
-                if key.code == KeyCode::Char('h') && key.modifiers.contains(KeyModifiers::CONTROL) {
+                if (key.code == KeyCode::Char('h') && key.modifiers.contains(KeyModifiers::CONTROL))
+                    || key.code == KeyCode::Char('?')
+                {
                     app.show_help = !app.show_help;
                     continue;
                 }
@@ -224,6 +226,7 @@ fn run_app(terminal: &mut Terminal<CrosstermBackend<io::Stdout>>, app: &mut App)
                 if app.show_help {
                     if key.code == KeyCode::Esc
                         || key.code == KeyCode::Char('q')
+                        || key.code == KeyCode::Char('?')
                         || (key.code == KeyCode::Char('h')
                             && key.modifiers.contains(KeyModifiers::CONTROL))
                     {
