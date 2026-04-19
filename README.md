@@ -47,8 +47,8 @@ To build and run TermTome, you will need:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/xenycx/terminal-book-reader.git
-   cd terminal-book-reader
+   git clone https://github.com/xenycx/termtome.git
+   cd termtome
    ```
 
 2. **Build the project:**
@@ -60,7 +60,7 @@ To build and run TermTome, you will need:
    ```bash
    cargo install --path .
    ```
-   *This allows you to run `terminal-book-reader` (or `termtome` depending on your alias) from anywhere on your system.*
+   *This allows you to run `termtome`  from anywhere on your system.*
 
 ### Quick Start
 
@@ -73,7 +73,7 @@ cargo run
 Or, if installed globally, simply type the executable name in your terminal. You can pass the path to an EPUB file directly:
 
 ```bash
-terminal-book-reader path/to/your/book.epub
+termtome path/to/your/book.epub
 ```
 
 ## 🎮 Keybindings & Controls
@@ -111,14 +111,14 @@ Press `:` at any time to open the command palette at the bottom of the screen.
 
 By default, TermTome stores your imported books, reading progress, and configuration files in your system's standard user data directory. 
 
-- **Linux:** `~/.local/share/terminal-book-reader/`
-- **macOS:** `~/Library/Application Support/terminal-book-reader/`
-- **Windows:** `C:\Users\{User}\AppData\Roaming\terminal-book-reader\`
+- **Linux:** `~/.local/share/termtome/`
+- **macOS:** `~/Library/Application Support/termtome/`
+- **Windows:** `C:\Users\{User}\AppData\Roaming\termtome\`
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome! 
-Feel free to check [issues page](https://github.com/xenycx/terminal-book-reader/issues).
+Feel free to check [issues page](https://github.com/xenycx/termtome/issues).
 
 1. Fork the Project
 2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)

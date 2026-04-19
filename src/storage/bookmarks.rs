@@ -51,7 +51,7 @@ impl Default for AppConfig {
 }
 
 pub fn get_data_dir() -> Option<PathBuf> {
-    if let Some(proj_dirs) = ProjectDirs::from("com", "terminal-book-reader", "app") {
+    if let Some(proj_dirs) = ProjectDirs::from("com", "termtome", "app") {
         Some(proj_dirs.data_dir().to_path_buf())
     } else {
         None
